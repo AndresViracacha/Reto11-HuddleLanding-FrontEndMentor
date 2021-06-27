@@ -56,7 +56,7 @@ body {
 
 footer {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   max-width: 1290px;
   margin: 0 auto;
   margin-top: 16px;
