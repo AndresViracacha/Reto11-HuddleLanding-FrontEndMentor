@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --softMagenta: hsl(300, 69%, 71%);
+}
+body {
+  background-color: var(--violet);
+  background-image: url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+.container-hero {
+  display: flex;
+}
+.container-hero .info {
+  color: #fff;
+  padding: 50px 58px;
+}
+.container-hero .info h1 {
+  font-family: "Poppins", sans-serif;
+}
+.container-hero .info p {
+  font-family: "Open Sans", sans-serif;
+}
